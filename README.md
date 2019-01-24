@@ -1,24 +1,16 @@
-[![Build Status](https://travis-ci.org/dotupNET/dotup-ts-library-template.svg?branch=master)](https://travis-ci.org/dotupNET/dotup-ts-library-template)
+[![Build Status](https://travis-ci.org/dotupNET/dotup-ts-alexa-skill-server.svg?branch=master)](https://travis-ci.org/dotupNET/dotup-ts-alexa-skill-server)
 
-# dotup-ts-library-template
-Template for typescript libraries.
+# dotup-ts-alexa-skill-server
+Node js alexa skill server.
 
 With tslint, jasmine, travis, typedoc and gh-pages integration.
 
 ## USAGE
 
-Replace your-project-name and your-user-name with your own.
-
-- git clone https://github.com/dotupNET/dotup-ts-library-template.git **your-project-name**
-- git remote set-url origin https://github.com/your-user-name/your-project-name.git
-- Modify package.json (name, version, ...)
-- Create your library
-- Run in terminal: npm publish
-- git remote add template https://github.com/dotupNET/dotup-ts-library-template.git (if you want to fetch upgrades)
 
 
 ## Docs:
-https://dotupnet.github.io/dotup-ts-library-template/index.html
+https://dotupnet.github.io/dotup-ts-alexa-skill-server/index.html
 
 ## repository:
-https://github.com/dotupNET/dotup-ts-library-template
+https://github.com/dotupNET/dotup-ts-alexa-skill-server

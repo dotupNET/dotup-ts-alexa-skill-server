@@ -1,9 +1,9 @@
-import { AwesomeLibrary } from "../src/AwesomeLibrary";
+import { SkillServer } from "../src/SkillServer";
 
 describe('AwesomeLibrary',()=>{
 
   it('should create an instance', () => {
-    const value = new AwesomeLibrary();
+    const value = new SkillServer(1);
     expect(value).toBeTruthy();
   });
 
