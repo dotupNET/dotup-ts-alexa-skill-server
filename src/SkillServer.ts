@@ -93,7 +93,12 @@ export class SkillServer {
         server.Router.use("/" + item.name, bodyParser.json());
         server.Router.post("/" + item.name, async function (req: any, res: any, callback: any) {
           //var json = req.body;
-          const intentname = req.body.request.intent ? req.body.request.intent.name : '---';
+          let intentname = '';
+          if (req.body.request.type === 'GameEngine.InputHandlerEvent') {
+            intentname = req.body.request.events.map((e: any) => e.name).join(',')
+          } else {
+            intentname = req.body.request.intent ? req.body.request.intent.name : '---';
+          }
           let log = `${req.body.request.type} - ${intentname} - ${req.body.request.requestId}`;
           console.log(log);
 

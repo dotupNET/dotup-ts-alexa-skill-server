@@ -1,6 +1,6 @@
 {
   "name": "dotup-ts-alexa-skill-server",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node js alexa skill server",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
