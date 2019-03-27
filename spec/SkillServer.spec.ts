@@ -1,10 +1,13 @@
+import { describe } from 'mocha';
+import { expect } from 'chai';
+
 import { SkillServer } from "../src/SkillServer";
 
-describe('AwesomeLibrary',()=>{
+describe('AwesomeLibrary', () => {
 
   it('should create an instance', () => {
     const value = new SkillServer(1);
-    expect(value).toBeTruthy();
+    expect(value).to.be.instanceOf(SkillServer);
   });
 
 });
